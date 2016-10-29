@@ -5,10 +5,9 @@ _________         __   .__  __
 /    \  \/ /  _ \|  |/ /  \   __\/  _ \ 
 \     \___(  <_> )    <|  ||  | (  <_> )
  \______  /\____/|__|_ \__||__|  \____/ 
-        \/            \/                
+        \/            \/                v2.0
 
-https://pruebacokito.herokuapp.com/
-
+https://prueba2rails.herokuapp.com/
 
 
 ```
