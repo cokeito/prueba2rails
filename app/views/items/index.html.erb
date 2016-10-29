@@ -1,0 +1,31 @@
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h1> Prueba #2 </h1>
+
+			<table class="table table-stripped table-condensed table-bordered">
+				<thead>
+					<th>#</th>
+					<th>Usuario</th>
+					<th>Item-Serial</th>
+					<th>Tamaño</th>
+					<th>Categoria</th>
+					<th>Accion</th>
+				</thead>
+
+				<tbody>
+				<% @items.each do |i| %>
+				<tr>
+					<td> <%= i.id %></td>
+					<td> <%= i.user.name %></td>
+					<td> <%= i.serial %></td>
+					<td> <%= i.size %></td>
+					<td> <%= i.category.name %></td>
+					<td> <a href="<%= items_delete_item_path(id:i.id) %>" class="btn btn-danger"> Borrar Item </a> </td>
+				</tr>
+				<% end %>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
